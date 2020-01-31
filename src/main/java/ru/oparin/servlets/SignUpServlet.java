@@ -15,7 +15,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 /**
- *
+ * Class show simple example servlets.
  */
 @WebServlet("/signUp")
 public class SignUpServlet extends HttpServlet {
