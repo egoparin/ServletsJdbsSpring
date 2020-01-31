@@ -15,7 +15,8 @@ public class UsersRepositoryInMemoryImpl implements UsersRepository {
 
     @Override
     public boolean isExists(String name, String password) {
-        findAll().it
+        return findAll().stream()
+                .anyMatch(u -> u.getName().equals(name) && u.getPassword().equals(password));
     }
 
     @Override
