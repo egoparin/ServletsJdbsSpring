@@ -25,8 +25,9 @@
 
 
     <modules>
-        <module>jdbc</module>
-        <module>jsp_servlets</module>
+        <module>1.jsp_servlets</module>
+        <module>2.jdbc</module>
+        <module>3.hibernateEx</module>
     </modules>
 
     <dependencies>
