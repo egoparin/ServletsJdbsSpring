@@ -38,6 +38,7 @@
         <module>3.hibernateEx</module>
         <module>4.springMvc</module>
         <module>5.springBoot</module>
+        <module>6.springRest</module>
     </modules>
 
     <dependencies>
